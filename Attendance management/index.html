@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href= "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #background-video{
+            object-fit: cover;
+            width:100%;
+            height: 100%;
+            top: -30px;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!------ header section---->
+
+<section class="header" style="background-image: 'images/banner.jpeg';">
+    
+    <nav >
+        <h1 style="color: aliceblue;">University</h1>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contactus.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    
+<div class="text-box">
+    <div>
+    <h1> Abc University </h1>
+    <p>“Study without desire spoils the memory, and it retains nothing that it takes in.” <br> “A university is just a group of buildings gathered around a library.” “But we're a university!</p>
+    <a href="" class="hero-btn">Visit us to know more</a>
+    </div>
+    
+</div> 
+<div>
+    <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+        <source  src="Campus B-Roll(720P_HD).mp4" type="video/mp4">
+      </video>
+</div>
+
+</section>  
+
+
+    <!---- course section-->
+
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p>School of Sciences at CHRIST University has created a niche in the realm of higher education in India through its programmes. It offers undergraduate, postgraduate, doctoral, and post-doctoral programmes in the disciplines of Chemistry, Physics & Electronics, Mathematics, Life Sciences, and Computer Science & Statistics.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>School of science</h3>
+            <p>Computer Science and Engineering is an academic program at many universities which comprises scientific and engineering aspects of computing. CSE is also a term often used in Europe to translate the name of engineering informatics academic programs.</p>
+        </div>
+        <div class="course-col">
+            <h3>EEE</h3>
+            <p>Electrical and Electronics Engineering (EEE) is a four-year undergraduate course that includes electrical engineering and research in electronics. ... Students study a wide range of disciplines, like signal processing, control systems, radio frequency designs, electrical machines, microprocessors in this course</p>
+        </div>
+        <div class="course-col">
+            <h3>Civil</h3>
+            <p>Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewage systems, pipelines, structural components of buildings</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!------- campus---------->
+
+
+<section class="campus">
+    <h1>Our Global campus</h1>
+    <p></p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/london.png">    
+            <div class="layer">
+                <h3>Bengaluru</h3>
+            </div> 
+        </div>
+        <div class="campus-col">
+            <img src="images/newyork.png">    
+            <div class="layer">
+                <h3>Chennai</h3>
+            </div> 
+        </div>
+        <div class="campus-col">
+            <img src="images/washington.png">    
+            <div class="layer">
+                <h3>Hyderabad</h3>
+            </div> 
+        </div>
+    </div>
+</section>
+
+
+<!------  Facilities---------->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p></p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png" >
+            <h3>World Class Library</h3>
+            <p>The Central Campus has 2 libraries the Under Graduate Library and the Knowledge Centre (PG, Research and Law Library). Both the libraries has a good collection of textbooks, reference books, periodicals, journal archives etc.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png" >
+            <h3>Largest Playground</h3>
+            <p>The Central Campus has 2 libraries the Under Graduate Library and the Knowledge Centre (PG, Research and Law Library). Both the libraries has a good collection of textbooks, reference books, periodicals, journal archives etc.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png" >
+            <h3>Tasty And Healthy Food </h3>
+            <p>The Central Campus has 2 libraries the Under Graduate Library and the Knowledge Centre (PG, Research and Law Library). Both the libraries has a good collection of textbooks, reference books, periodicals, journal archives etc.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-----------testomonial-------->
+
+<section class="testimonial">
+    <h1>What Our Student Says</h1>
+    <p>The University's Alumni's are spread across the globe as a great leaders and Individual acheiveing their lifetime goals </p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg" >
+            <div>
+                <p>The College is equipped with all the necessary infrastructure for the student's all-around development. The college has equipped labs supported by talented and knowledgeable faculties. The college provides free Wi-fi to the students. The living spaces are clean and we have a very friendly atmosphere.</p>
+           <h3>Student 1</h3>
+           <i class="fa fa-star" ></i>
+           <i class="fa fa-star" ></i>
+           <i class="fa fa-star" ></i>
+           <i class="fa fa-star" ></i>
+           <i class="fa fa-star-o" ></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/user2.jpg" >
+            <div>
+                <p> I am from ISE department, Faculty members and HOD's are highly qualified, very helpful and knowledgeable. They always encourage and support students. and this reflection is seen by every student. we have R&D centers recognized by VTU, we have incubation center for research purpose.</p>
+           <h3>Student 2</h3>
+           <i class="fa fa-star" ></i>
+           <i class="fa fa-star" ></i>
+           <i class="fa fa-star" ></i>
+           <i class="fa fa-star" ></i>
+           <i class="fa fa-star-half-o" ></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+       <!-- call to action-->
+
+<section class="cta">
+    <h1>Thank you so much for visiting our website.</h1>
+    <a href="abour.html" class="hero-btn">Contact Us</a>
+</section>
+
+
+         <!-- Footer -->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>Wanna know more about university? Explore, connect, join and follow us on social media
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+    </div>
+   <p>Abc University </p>
+</section>
+
+
+
+<!-------------(header section) javascript for toggle menu---->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
